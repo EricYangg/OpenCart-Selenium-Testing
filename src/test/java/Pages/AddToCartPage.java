@@ -1,8 +1,7 @@
 package Pages;
 
 import com.aventstack.extentreports.Status;
-import com.beust.ah.A;
-import com.example.opencart.LoggingUtils;
+import Opencart.LoggingUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

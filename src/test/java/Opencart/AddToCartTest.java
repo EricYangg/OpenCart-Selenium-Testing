@@ -1,23 +1,13 @@
-package com.example.opencart;
+package Opencart;
 
 import Pages.AddToCartPage;
-import Pages.RandomStringGenerator;
-import Pages.RegisterPage;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
-import java.time.Duration;
 
 // page_url = https://awesomeqa.com/ui/index.php?route=common/home
 public class AddToCartTest {

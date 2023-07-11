@@ -1,4 +1,4 @@
-package com.example.opencart;
+package Opencart;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
