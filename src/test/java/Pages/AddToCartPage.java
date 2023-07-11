@@ -32,7 +32,6 @@ public class AddToCartPage {
     public WebElement dropDownSelectorButton;
     @FindBy(css = "option[value='1']")
     private WebElement dropdownButton;
-
     @FindBy(css = "textarea[id='input-option209']")
     private WebElement textBox2;
     @FindBy(css = "input[id='input-option219']")
@@ -81,7 +80,7 @@ public class AddToCartPage {
         uploadButton.click();
         
         // Provide the file path to upload using the system's native file chooser dialog
-        String filePath = "D:\\Programming Aqua\\OpenCart\\src\\test\\java\\Pages\\Test.txt";
+        String filePath = "path to project\\OpenCart\\src\\test\\java\\Pages\\Test.txt";
         StringSelection fileSelection = new StringSelection(filePath);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(fileSelection, null);
         Robot robot = new Robot();
