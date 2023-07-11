@@ -9,7 +9,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 // page_url = https://awesomeqa.com/ui/index.php?route=account/register
 public class RegisterTest {
     public static void main(String[] args)  {
-        System.setProperty("webdriver.chrome.driver", "/D:/Programing/chromedriver_win32/chromedriver.exe");
+        //chromedriver path
+        String path="your_path/folder/chromedriver.exe";
+
+        System.setProperty("webdriver.chrome.driver", path);
 
         WebDriver driver = new ChromeDriver();
 
